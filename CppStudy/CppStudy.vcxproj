@@ -118,7 +118,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="calculate.cpp" />
     <ClCompile Include="Cpp17_return_using_tuple.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
