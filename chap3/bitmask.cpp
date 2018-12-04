@@ -35,6 +35,26 @@ int main()
 	if (bitset<4>(item_flag) == item1)//아이템을 가지고있는가?
 		cout << "item1" << endl;
 	else
-		cout << "No item";
+		cout << "No item" << endl;
+
+	int arr[5]={ 1,2,3,4,5 };
+	int i, j;
+	int cnt = 0;
+	for (int i = 0; i< (1<< (5)); i++) 
+	{
+		for (int j = 0; j < 5; j++)
+		{
+			if (i&(1 << j))
+			{
+				cout << arr[j];
+			}
+		}
+		cnt++;
+		cout << endl;
+	}
+	cout << "부분집합의 수 : " << cnt << endl;
+
+
+
 	return 0;
 }
