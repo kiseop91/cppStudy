@@ -37,6 +37,8 @@ int main()
 	else
 		cout << "No item" << endl;
 
+	
+
 	int arr[5]={ 1,2,3,4,5 };
 	int i, j;
 	int cnt = 0;
@@ -53,8 +55,7 @@ int main()
 		cout << endl;
 	}
 	cout << "부분집합의 수 : " << cnt << endl;
-
-
+	
 
 	return 0;
 }
